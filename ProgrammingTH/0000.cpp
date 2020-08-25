@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+/*#define _CRT_SECURE_NO_WARNINGS
 //A + B Problem
 #include<stdio.h>
 int main() {
@@ -7,4 +7,4 @@ int main() {
 	scanf("%d", &b);
 	printf("%d", a + b);
 	return 0;
-}
+}*/

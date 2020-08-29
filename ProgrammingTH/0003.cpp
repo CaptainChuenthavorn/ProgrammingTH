@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+/*#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 int main() {
 	int matrixA[100][100], matrixB[100][100], m, n, count, a, b;
@@ -20,4 +20,4 @@ int main() {
 		printf("\n");
 	}
 	return 0;
-}
+}*/

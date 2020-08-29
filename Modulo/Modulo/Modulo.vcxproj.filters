@@ -15,16 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="0000.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="0003.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="0004.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="diamond.cpp">
+    <ClCompile Include="Modulo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

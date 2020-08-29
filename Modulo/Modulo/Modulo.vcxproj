@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{798ee2da-9181-4628-bbf5-6a484c952a5e}</ProjectGuid>
-    <RootNamespace>ProgrammingTH</RootNamespace>
+    <ProjectGuid>{d86b2405-98a0-4d65-992f-86b3cde1df45}</ProjectGuid>
+    <RootNamespace>Modulo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,10 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="0000.cpp" />
-    <ClCompile Include="0003.cpp" />
-    <ClCompile Include="0004.cpp" />
-    <ClCompile Include="diamond.cpp" />
+    <ClCompile Include="Modulo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

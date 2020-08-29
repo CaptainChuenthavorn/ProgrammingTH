@@ -4,6 +4,7 @@ int main()
 {
 	int input, count[41], i,ans, k;
 	ans = 0;
+	printf("Enter 10 number : \n");
 	for (i = 0;i < 10;i++) {
 		scanf("%d", &input);
 		k = input % 42;
@@ -14,6 +15,6 @@ int main()
 			ans++;
 		}
 	}
-	printf("%d", ans);
+	printf("The number of answer is %d", ans);
 	return 0;
 }

@@ -8,7 +8,7 @@ int main() {
 	sum[3] = 0;
 	sum[4] = 0;
 	a = 0;
-	printf("Enter 5 point of each competitor \n");
+	printf("Enter 5 point of each competitor \n***(if score of 5 competitor equal the winner is Competitor 1)\n");
 	for (k = 0;k < 5;k++) {
 		printf("Competitor %d score : ", k + 1);
 		for (i = 0;i < 4;i++) {
@@ -28,7 +28,5 @@ int main() {
 		}
 		if (a == 1) break;
 	}
-
-
 	return 0;
 }

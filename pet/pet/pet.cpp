@@ -9,26 +9,12 @@ int main() {
 	sum[4] = 0;
 	a = 0;
 	printf("Enter 5 point of each competitor \n");
-	printf("Competitor 1 score : ");
-	for (i = 0;i < 4;i++) {
-		scanf("%d", &com1[i]);
-			sum[0] += com1[i];
-	}printf("Competitor 2 score : ");
-	for (i = 0;i < 4;i++) {
-		scanf("%d", &com1[i]);
-		sum[1] += com1[i];
-	}printf("Competitor 3 score : ");
-	for (i = 0;i < 4;i++) {
-		scanf("%d", &com1[i]);
-		sum[2] += com1[i];
-	}printf("Competitor 4 score : ");
-	for (i = 0;i < 4;i++) {
-		scanf("%d", &com1[i]);
-		sum[3] += com1[i];
-	}printf("Competitor 5 score : ");
-	for (i = 0;i < 4;i++) {
-		scanf("%d", &com1[i]);
-		sum[4] += com1[i];
+	for (k = 0;k < 5;k++) {
+		printf("Competitor %d score : ", k + 1);
+		for (i = 0;i < 4;i++) {
+			scanf("%d", &com1[i]);
+			sum[k] += com1[i];
+		}
 	}
 	for (k = 25;k > 0;k--) {
 		for (i = 0;i < 5;i++)

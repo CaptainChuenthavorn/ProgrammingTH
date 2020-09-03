@@ -4,9 +4,11 @@
 int main() {
 	int x[3],i,count;
 	count = 0;
+	printf("\n\nEnter w * h * l: ");
 	for (i = 0;i < 3;i++) {
 		scanf("%d", &x[i]);
 	}	
+	printf("----------------------\n");
 		for (i = 0;i < 3;i++) {
 			if (x[i] > 0 && x[i] < 1000000) {
 				while (x[i] != 1) {
@@ -26,6 +28,6 @@ int main() {
 			}
 			
 	}
-		printf("\ncount = %d", count);
+		printf("\ncount = %d\n\n", count);
 		return 0 ;
 }
